@@ -15,12 +15,12 @@
             <img class="logo" src="assets/Logo.svg" alt="Logo">
             <div class="nav-list">
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Use cases</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Request a Quote</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#case">Case Studies</a></li>
+                    <li><a href="#owp">Working Project</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>    
             </div>
         </div>
@@ -28,7 +28,7 @@
     <!-- END NAVBAR -->
 
     <!-- HEADER -->
-     <div class="wrapper">
+     <div id="home" class="wrapper">
          <section class="container">
             <div class="content-container">
                 <h1>Navigating the digital landscape for success</h1>
@@ -47,7 +47,7 @@
      <!-- END BUTTON -->
 
       <!-- SERVICES -->
-       <div class="services">
+       <div id="services" class="services" >
         <h1>Services</h1>
         <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online.</p>
        </div>
@@ -94,7 +94,7 @@
 
        <!-- CASE STUDIES -->
 
-        <section class="case-studies">
+        <section id="case" class="case-studies">
             <div class="case">
                 <h1>Case Studies</h1>
                 <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies.</p>
@@ -117,7 +117,7 @@
 
         <!-- WORKING PROCESS -->
 
-        <section class="heading-owp">
+        <section id="owp" class="heading-owp">
             <div class="body-owp">
                 <h1>Our Working Process </h1>
                 <p>Step-by-Step Guide to Achieving Your Business Goals</p>
@@ -166,7 +166,7 @@
 
         <!-- TEAM -->
 
-        <section class="heading-team">
+        <section id="team" class="heading-team">
             <div class="head-team">
                 <h2>Team</h2>
                 <p>Meet the skilled and experienced team behind our successful digital marketing strategies.</p>
@@ -225,15 +225,46 @@
          
         <!-- CONTACT ME -->
 
+        <section id="contact" class="contact-us">
+            <div class="head-contact">
+                <h2>Contact Us</h2>
+                <p>Connect with Us: Let's Discuss Your Digital Marketing Needs.</p>
+            </div>
+        </section>
+
         <form class="contact">
-            <div>
-                <input type="radio" id="Say" name="Hello" value="SayHi" checked />
-                <label for="SayHi">Say Hi</label>
-              </div>
-            <div>
-                <input type="radio" id="Get" name="Quotes" value="GetQuote" checked />
-                <label for="GetQuote">Get a Quote</label>
-              </div>
+            <div class="input-btn">
+                <div>
+                    <input type="radio" id="Say" name="option" value="SayHi" />
+                    <label for="SayHi">Say Hi</label>
+                  </div>
+                <div>
+                    <input type="radio" id="Get" name="option" value="GetQuote"  />
+                    <label for="GetQuote">Get a Quote</label>
+                  </div>
+            </div>
+
+            <div class="text-btn">
+                <div class="name-btn">
+                    <label for="uname">Name</label>
+                    <input class="btn-name" type="text" id="name" name="name" placeholder=" Name" required>
+                </div>
+                <div class="email-btn">
+                    <label for="uemail">Email</label>
+                    <input class="btn-email" type="email" id="email" name="name" placeholder="  Example@slime.com" required>
+                </div>
+                <div class="message-btn">
+                    <input class="btn-message" type="text" id="message" name="name" placeholder="  Write a Message!" required>
+                </div>
+                <div class="button-btn">
+                    <button class="btn-btn" type="submit">Send Message</button>
+                </div>
+            </div>
+
+            <div class="img-btn">
+                <img src="assets/Illustration.png" alt="">
+            </div>
+
         </form>
 
         <!-- CONTACT ME -->

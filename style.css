@@ -6,13 +6,12 @@
 }
 
 .navbar {
-
     height: 70px;
     display: flex;
     padding: 0 20px;    
-    box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.75); */
 }
 
 .logo {
@@ -20,10 +19,13 @@
     width: 150px; 
 }
 .nav-menu{
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    background-color: white;
+    z-index: 1;
 }
 
 .nav-list ul {
@@ -481,4 +483,94 @@
 
 .body-group p{
     font-size: 13px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: row;
+}
+.head-contact h2{
+    margin: 80px 0 0 130px;
+    background-color: #B9FF66;
+    text-align: left;
+    /* display: flex; */
+    font-weight: 500;
+    width: 130px;
+}
+
+.head-contact p {
+    position: relative;
+    font-size: 13px;
+    width: 70%;
+    text-align: left;
+    left: 75%;
+    bottom: 30px;
+}
+
+.contact{
+    background-color: #F3F3F3;
+    width: 72%;
+    margin: 50px 0 0 140px;
+}
+
+.input-btn {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 20px;
+}
+
+.text-btn{
+    margin: 0 0 0 50px;
+    width: 20px;
+}
+
+.name-btn{
+    padding: 0 0 30px 0;
+    width: 20px;
+}
+
+.btn-name{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #191a23;
+    border-radius: 5px;
+}
+
+.email-btn{
+    padding: 0 0 30px 0;
+}
+
+.btn-email{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #191a23;
+    border-radius: 5px;
+}
+
+.btn-message{
+    padding: 0 0 30px 0;
+    height: 10px;
+    width: 400px;
+    height: 60px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #191a23;
+}
+
+.btn-btn{
+    margin: 30px 0 0 0;
+    background-color: #191A23;
+    border-radius: 9px;
+    border: 1px solid #f3f3f3;
+    color: #F3F3F3;
+    width: 200px;
+    height: 50px;
+}
+
+.img-btn img{
+    position: relative;
+    margin: -430px 0 0 650px;
+    width: 500px;
+    
 }
