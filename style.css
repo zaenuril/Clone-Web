@@ -434,7 +434,6 @@
 }
 
 .group-team{
-    /* width: 200px; */
     display: grid;
     grid-template-columns: repeat(3, 3fr); 
     grid-template-rows: repeat(3, auto);
@@ -444,19 +443,42 @@
 .body-group{
     border: 1px solid #191A23;
     border-radius: 30px;
-    width: 250px;
+    width: 210px;
     height: 250px;
-    margin: 50px 0 0 130px;
+    margin: 40px -80px 0 135px;
+    padding: 20px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
 }
 
 .body-group > h4{
     position: relative;
     bottom: 55px;
-    left: 110px;
+    left: 100px;
     font-weight: 600; 
 }
 
+.body-ceo {
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    bottom: 55px;
+    left: 100px;
+}
+
 .img-1{
-    width: 75px;
-    padding: 15px;  
+    width: 70px;
+    padding: 10px;
+}
+
+.img-2{
+    position: relative;
+    bottom: 135px;
+    left: 170px;
+    width: 25px;
+}
+
+.body-group p{
+    font-size: 13px;
 }
