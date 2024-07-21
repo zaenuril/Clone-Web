@@ -485,6 +485,11 @@
     font-size: 13px;
 }
 
+.text-arc{
+    padding: 10px 0 0 0;
+    border-top: 1px solid #191a23;
+}
+
 .contact-us{
     display: flex;
     flex-direction: row;
@@ -511,6 +516,7 @@
     background-color: #F3F3F3;
     width: 72%;
     margin: 50px 0 0 140px;
+    border-radius: 10px;
 }
 
 .input-btn {
@@ -573,4 +579,104 @@
     margin: -430px 0 0 650px;
     width: 500px;
     
+}
+
+.footer{
+    background-color: #191A23;
+    width: 65%;
+    height: 350px;
+    margin: 140px 0 0 140px;
+    padding: 45px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer-left img{
+    width: 120px;
+}
+
+.nav-footer{
+    margin: -20px 0 0 210px;
+    font-size: 11px;
+}
+
+.nav-footer ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-footer a{
+    color: white;
+}
+
+.footer-right{
+    margin: -2% 0 0 84%;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-social img{
+    width: 22px;
+}
+
+.footer-body{
+    margin: 55px 0 0 0;
+    color: white;
+}
+
+.footer-body h3{
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #B9FF66;
+    color: #191A23;
+    border-radius: 4px;
+    width: 14%;
+}
+
+.footer p{
+    padding: 15px 0 0 0;
+}
+
+.footer-input{
+    padding: 20px;
+    position: relative;
+    background-color: #292A32;
+    margin: 0 0 0 40%;
+    top: -160px;
+    border-radius: 10px;
+}
+
+.email-ftr{
+    position: relative; 
+    top: 30px;
+    width: 170px;
+    padding: 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid #f3f3f3;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-input p{
+    width: 150px;
+    background-color: #B9FF66;
+    padding: 20px;
+    position: relative;
+    margin: 0 0 0 250px;
+    top: -30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ftr-end{
+    margin: -80px 0 0 190px;
+    color: white;
+    padding: 10px;
+    border-top: 1px solid #f3f3f3;
+    width: 63%;
 }
